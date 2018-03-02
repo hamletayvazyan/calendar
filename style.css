@@ -65,7 +65,6 @@ body{
     color: black;
 }
 .week:nth-last-child(-n+2),
-.special
 {
     background-color: #523a3a;
 }
