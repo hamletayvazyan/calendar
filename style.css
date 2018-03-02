@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+.General{
+    width: 50%;
+    margin: 80px auto;
+    text-align: center;
+    background-color: #444;
+    height: 470px;
+    border-radius: 8px;
+}
+.month {
+    width: auto;
+    height: 50px;
+    margin: 2px;
+    text-align: center;
+    background-color: #444;
+    border-radius: 8px;
+}
+.month #Months, #Year{
+    display: inline-block;
+    width: 36%;
+    margin-top: 19px;
+}
+.week {
+    width: 50px;
+    height: 20px;
+    border: 1px solid gray;
+    margin: 2px;
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    border-radius: 40px;
+}
+#matrix{
+    display: inline-block;
+    text-align: center;
+}
+#week{
+    margin-top: 20px;
+    text-align: center;
+}
+.days {
+    width: 50px;
+    height: 20px;
+    border: 1px solid gray;
+    margin: 2px;
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    border-radius: 40px;
+}
+.days:hover{
+    opacity: 0.3;
+}
+.prev, .next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    color: black;
+}
+.week:nth-last-child(-n+2),
+.special
+{
+    background-color: #523a3a;
+}
